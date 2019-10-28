@@ -19,10 +19,10 @@ function InterfaceOptions:CreateOptionsPanel()
     local InterfaceFrame = CreateFrame("Frame")
 
     -- Set the interface panel name, as appears in the menu...
-    InterfaceFrame.name = "Guild Bank Profiler"
+    InterfaceFrame.name = "Guild Bank"
 
     -- Title...
-    InterfaceFrame.titleText = self:TextFactory(InterfaceFrame, "Guild Bank Profiler", 16)
+    InterfaceFrame.titleText = self:TextFactory(InterfaceFrame, "Guild Bank", 16)
     InterfaceFrame.titleText:SetPoint("TOPLEFT", 15, -15)
     InterfaceFrame.titleText:SetTextColor(1, 0.9, 0, 1)
 
